@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial scale=1">
+        <link rel="stylesheet" href="gamepage.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body id="body">
+        <h4 id="player1_name"></h4><span id="player1_score"></span>
+        <h4 id="player2_name"></h4><span id="player2_score"></span>
+
+        <div class="container">
+            <center>
+                <h2 style="color:white;" onmouseover="go()">The Math quiz!</h2>
+                <h3  style="color:white;">Question Turn-</h3><span id="question_turn"></span>
+                <h3  style="color:white;">Answer Turn-</h3><span id="answer_turn"></span>
+            </center>
+            <div id="output">
+                <h3 id="question"></h3> <span><h3> Answer: </h3></span>
+                <input type="number" id="answer" placeholder="Type your answer">
+                <br>
+                <br>
+                <button id="check" style="background-color:hotpink; color:aliceblue; border:aliceblue;
+                 border-radius:20px;border-width:1px;">Check</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div id="output2">
+            <center>
+<h4>First Number</h4>
+<input type="number" id="first_number" placeholder="Type your first number" >
+<h4>Second Number</h4>
+<input type="number" id="second_number" placeholder="Type your second number" >
+            </center>
+        </div>
+        <script src="gamepage.js"></script>
+    </body>
+</html>
